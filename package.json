@@ -1,0 +1,23 @@
+{
+  "name": "datoscuriosos",
+  "version": "0.1.0",
+  "description": "Un sitio para almacenar datos curiosos libre",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "nodemon src/inde.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/luisBazanDev/DatosCuriosos.git"
+  },
+  "keywords": [
+    "datos",
+    "curiosos"
+  ],
+  "author": "Luis Bazán",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luisBazanDev/DatosCuriosos/issues"
+  },
+  "homepage": "https://github.com/luisBazanDev/DatosCuriosos#readme"
+}
