@@ -26,3 +26,5 @@ const User = new Schema({
     unique: true,
   },
 });
+
+module.exports = model("User", User);

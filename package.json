@@ -4,7 +4,8 @@
   "description": "Un sitio para almacenar datos curiosos libre",
   "main": "src/index.js",
   "scripts": {
-    "test": "nodemon src/inde.js"
+    "dev": "nodemon src/inde.js",
+    "start": "node src/index.js"
   },
   "repository": {
     "type": "git",
@@ -31,6 +32,8 @@
     "express": "^4.18.1",
     "express-session": "^1.17.3",
     "mongoose": "^6.3.6",
-    "passport": "^0.6.0"
+    "mongoose-auto-increment": "^5.0.1",
+    "passport": "^0.6.0",
+    "passport-google-oauth20": "^2.0.0"
   }
 }
